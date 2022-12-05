@@ -51,9 +51,10 @@ empty_row.grid(row=1, column=0)
 
 qr_generator = Label(text="URL:", font=font_settings, background=background_colour)
 qr_generator.grid(row=2, column=0)
-qr_generator.focus()
+
 qr_entry = Entry(width=100)
 qr_entry.grid(row=2, column=1)
+qr_entry.focus()
 
 name_qr = Label(text="Name:", font=font_settings, background=background_colour)
 name_qr.grid(row=3, column=0)
